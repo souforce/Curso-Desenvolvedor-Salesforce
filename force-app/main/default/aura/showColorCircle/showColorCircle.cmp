@@ -1,0 +1,12 @@
+<aura:component implements="flexipage:availableForAllPageTypes">
+    <aura:attribute name="size" type="String" default="100"></aura:attribute>
+    <aura:attribute name="color" type="String" default="white"></aura:attribute>
+    <aura:attribute name="style" type="String"></aura:attribute>
+    <c:pubsubAura aura:id="pubsub" onready="{!c.handleInit}"></c:pubsubAura>
+    <div class="sibling">
+        <div class="circle" style="{!v.style}">
+
+        </div>
+    </div>
+    <lightning:button label="Reset" onclick="{!c.reset}"></lightning:button>
+</aura:component>

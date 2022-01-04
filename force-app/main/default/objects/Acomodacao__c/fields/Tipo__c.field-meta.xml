@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Hostel</fullName>
+                <default>false</default>
+                <label>Hostel</label>
+            </value>
+            <value>
+                <fullName>Hotel</fullName>
+                <default>false</default>
+                <label>Hotel</label>
+            </value>
+            <value>
+                <fullName>Residencia Estudantil</fullName>
+                <default>false</default>
+                <label>Residencia Estudantil</label>
+            </value>
+            <value>
+                <fullName>Residencia Familiar</fullName>
+                <default>false</default>
+                <label>Residencia Familiar</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

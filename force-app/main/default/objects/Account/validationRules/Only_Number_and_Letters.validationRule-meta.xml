@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Only_Number_and_Letters</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(REGEX(Message__c,&quot;[a-zA-Z0-9]*&quot;))</errorConditionFormula>
+    <errorDisplayField>Message__c</errorDisplayField>
+    <errorMessage>Special character is not allowed</errorMessage>
+</ValidationRule>

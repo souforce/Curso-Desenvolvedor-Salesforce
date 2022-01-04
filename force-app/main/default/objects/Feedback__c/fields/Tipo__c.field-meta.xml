@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Acomodação</fullName>
+                <default>false</default>
+                <label>Acomodação</label>
+            </value>
+            <value>
+                <fullName>Escola</fullName>
+                <default>false</default>
+                <label>Escola</label>
+            </value>
+            <value>
+                <fullName>Aereo</fullName>
+                <default>false</default>
+                <label>Aereo</label>
+            </value>
+            <value>
+                <fullName>Pais</fullName>
+                <default>false</default>
+                <label>Pais</label>
+            </value>
+            <value>
+                <fullName>Evolução no idioma</fullName>
+                <default>false</default>
+                <label>Evolução no idioma</label>
+            </value>
+            <value>
+                <fullName>Recomendação</fullName>
+                <default>false</default>
+                <label>Recomendação</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
